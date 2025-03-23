@@ -130,9 +130,9 @@ When testing on AIGCDetectBenchmark, set no_resize and no_crop to True, and set 
 | GLIDE_50_27   | 97.5 | 99.5 |
 | GUIDED        | 74.0 | 78.1 |
 | LDM_100       | 98.0 | 99.6 |
-| LDM_200       | 90.1 | 96.9 |
-| LDM_200_cfg   | 90.1 | 96.9 |
-| MEAN          | 90.1 | 96.9 |
+| LDM_200       | 98.2 | 99.6 |
+| LDM_200_cfg   | 98.0 | 99.5 |
+| MEAN          | 93.9 | 96.7 |
 
 ## Acknowledgments
 
