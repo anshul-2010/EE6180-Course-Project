@@ -94,13 +94,13 @@ datasets
 
 ## Training the model 
 ```sh
-python train.py --name 4class-resnet-car-cat-chair-horse --dataroot ./datasets/ForenSynths_train_val --classes car,cat,chair,horse --batch_size 32 --delr_freq 10 --lr 0.0002 --niter 50
+python NPRDeepfakeDetect/train.py --name 4class-resnet-car-cat-chair-horse --dataroot NPRDeepfakeDetect/datasets/ForenSynths_train_val --classes car,cat,chair,horse --batch_size 32 --delr_freq 10 --lr 0.0002 --niter 50
 ```
 
 ## Testing the detector
 Modify the dataroot in test.py.
 ```sh
-python test.py --model_path ./NPR.pth
+python NPRDeepfakeDetect/test.py --model_path NPRDeepfakeDetect/model_epoch_last_3090.pth
 ```
 
 ## Detection Results
