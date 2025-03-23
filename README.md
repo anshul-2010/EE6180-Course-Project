@@ -136,6 +136,6 @@ When testing on AIGCDetectBenchmark, set no_resize and no_crop to True, and set 
 
 ## Acknowledgments
 
-This repository borrows partially from the [CNNDetection](https://github.com/peterwang512/CNNDetection).
-This repository borrows majorly from the [NPR-DeepfakeDetection](https://github.com/chuangchuangtan/NPR-DeepfakeDetection)
+- This repository borrows partially from the [CNNDetection](https://github.com/peterwang512/CNNDetection).
+- This repository borrows majorly from the [NPR-DeepfakeDetection](https://github.com/chuangchuangtan/NPR-DeepfakeDetection)
 
