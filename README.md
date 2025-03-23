@@ -108,29 +108,31 @@ python test.py --model_path ./NPR.pth
 ### [AIGCDetectBenchmark](https://drive.google.com/drive/folders/1p4ewuAo7d5LbNJ4cKyh10Xl9Fg2yoFOw) using [ProGAN-4class checkpoint](https://github.com/chuangchuangtan/NPR-DeepfakeDetection/blob/main/model_epoch_last_3090.pth)
 
 When testing on AIGCDetectBenchmark, set no_resize and no_crop to True, and set batch_size to 1.
-To deal with images of odd sizes, add the following code in [network/resnet.py](https://github.com/chuangchuangtan/NPR-DeepfakeDetection/blob/e2dbbe673c69c0c7237726e809a725a0308ec43d/networks/resnet.py#L163).
 
 | Generator  | Acc. | A.P. |
 |:----------:|:----:|:----:|
-| AttGAN     | 87.8 | 96.0 |
-| BEGAN      | 80.7 | 89.8 |
-| CramerGAN  | 93.2 | 99.1 |
-| InfoMaxGAN | 91.7 | 97.9 |
-| MMDGAN     | 94.4 | 99.9 |
-| RelGAN     | 88.7 | 96.1 |
-| S3GAN      | 94.0 | 99.7 |
-| SNGAN      | 90.1 | 96.9 |
-| STGAN      | 80.7 | 89.8 |
-| MEAN       | 93.2 | 99.1 |
+| AttGAN     | 92.5 | 98.6 |
+| BEGAN      | 99.6 | 99.9 |
+| CramerGAN  | 98.5 | 98.3 |
+| InfoMaxGAN | 91.5 | 97.2 |
+| MMDGAN     | 98.5 | 98.3 |
+| RelGAN     | 99.8 | 100.0|
+| S3GAN      | 79.8 | 78.9 |
+| SNGAN      | 93.3 | 97.3 |
+| STGAN      | 99.6 | 100.0|
+| MEAN       | 94.8 | 96.5 |
 
-| Generator  | Acc. | A.P. |
-|:----------:|:----:|:----:|
-| DALLE      | 91.7 | 97.9 |
-| GLIDE_a    | 94.4 | 99.9 |
-| GLIDE_b    | 88.7 | 96.1 |
-| GUIDED     | 94.0 | 99.7 |
-| LDM        | 90.1 | 96.9 |
-| MEAN       | 90.1 | 96.9 |
+| Generator     | Acc. | A.P. |
+|:-------------:|:----:|:----:|
+| DALLE         | 90.9 | 98.1 |
+| GLIDE_100_10  | 97.8 | 99.5 |
+| GLIDE_100_27  | 97.4 | 99.5 |
+| GLIDE_50_27   | 88.7 | 96.1 |
+| GUIDED        | 94.0 | 99.7 |
+| LDM_100       | 90.1 | 96.9 |
+| LDM_200       | 90.1 | 96.9 |
+| LDM_200_cfg   | 90.1 | 96.9 |
+| MEAN          | 90.1 | 96.9 |
 
 ## Acknowledgments
 
